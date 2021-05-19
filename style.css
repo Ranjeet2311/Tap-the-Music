@@ -1,0 +1,60 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body{
+      background-color: #160f1c;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+.main{
+      color: darkblue;
+      margin: auto;
+      text-align: center;
+}
+.main h1{
+      font-size: 3.5rem;
+      color: white;
+}
+
+.Keypad{
+      display: flex;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #7b8a91;
+      border: 4px solid black;
+      width: 100%;
+}
+
+.keysB{
+      background-color: #160f1c;
+      border: 2px solid rgb(22, 22, 22);
+      color: white;
+      text-align: center;
+      width: 10%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 10px;
+}
+.keysW{
+      background-color: rgb(252, 248, 248);
+      border: 2px solid rgb(22, 22, 22);
+      color: #160f1c;
+      text-align: center;
+      width: 10%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
